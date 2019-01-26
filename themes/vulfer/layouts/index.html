@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+{{ range .Site.Data.vulf.albums }}
+{{ $album := . }}
+<section class="album">
+    <div class="album-title">{{ $album.title }}</div>
+    <div class="album-date">Released in {{ $album.year }}</div>
+    <div class="album-songs">
+        {{ range $album.songs }}
+        {{ $song := . }}
+        <div class="album-songs-item">
+            <div class="album-songs-item-title">{{ $song.title }}</div>
+            <div class="album-songs-item-embed">
+                <iframe width="500" height="300" src="https://www.youtube.com/embed/{{ $song.youtubeId }}"
+                    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+                </iframe>
+            </div>
+            <div class="album-songs-item-details">{{ replace $song.description "\n" "<br>" | safeHTML }}</div>
+        </div>
+        {{ end }}
+    </div>
+</section>
+{{ end }}
+
+{{ end }}
