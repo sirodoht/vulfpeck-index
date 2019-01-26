@@ -1,0 +1,14 @@
+<script>
+    function setupSongsTrigger() {
+        var titleElems = document.querySelectorAll('.album-songs-item-title');
+        var i = 0;
+        for (i = 0; i < titleElems.length; i++) {
+            titleElems[i].addEventListener('click', function (ev) {
+                ev.target.parentNode.querySelector('.album-songs-item-embed').classList.toggle('show');
+                ev.target.parentNode.querySelector('.album-songs-item-details').classList.toggle('show');
+            });
+        }
+    }
+
+    setupSongsTrigger();
+</script>
