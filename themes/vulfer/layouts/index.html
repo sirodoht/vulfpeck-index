@@ -1,5 +1,9 @@
 {{ define "main" }}
 
+<section class="player">
+    <iframe id="player-frame" width="500" height="300" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</section>
+
 {{ range .Site.Data.vulf.albums }}
 {{ $album := . }}
 <section class="album">
@@ -10,16 +14,62 @@
         {{ $song := . }}
         <div class="album-songs-item">
             <div class="album-songs-item-title">{{ $song.title }}</div>
-            <div class="album-songs-item-embed">
-                <iframe width="500" height="300" src="https://www.youtube.com/embed/{{ $song.youtubeId }}"
-                    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-                </iframe>
+            <div class="album-songs-item-details">
+                {{ if $song.youtubeId }}
+                <div class="album-songs-item-details-play">
+                    <span data-id="{{ $song.youtubeId }}" class="album-songs-item-details-play-link">Play</span>
+                </div>
+                {{ end }}
+                {{ replace $song.description "\n" "<br>" | safeHTML }}
             </div>
-            <div class="album-songs-item-details">{{ replace $song.description "\n" "<br>" | safeHTML }}</div>
         </div>
         {{ end }}
     </div>
 </section>
 {{ end }}
 
+{{ end }}
+
+{{ define "scripts" }}
+<script>
+    function setupSongsTrigger() {
+        var titleElems = document.querySelectorAll('.album-songs-item-title');
+        var i = 0;
+        for (i = 0; i < titleElems.length; i++) {
+            titleElems[i].addEventListener('click', function (ev) {
+                ev.target.parentNode.querySelector('.album-songs-item-details').classList.toggle('show');
+            });
+        }
+    }
+
+    setupSongsTrigger();
+</script>
+<script>
+    function setupPlayLinks() {
+        var playElems = document.querySelectorAll('.album-songs-item-details-play-link');
+        var i = 0;
+        for (i = 0; i < playElems.length; i++) {
+            playElems[i].addEventListener('click', function (ev) {
+                var youtubeEmberUrl = 'https://www.youtube.com/embed/' + ev.target.dataset.id + '/';
+                document.getElementById('player-frame').src = youtubeEmberUrl;
+            });
+        }
+    }
+
+    setupPlayLinks();
+</script>
+<script>
+    function getRand(start, end) {
+        return Math.floor((Math.random() * end) + start);
+    }
+
+    function setupRandomSongOnLoad() {
+        var playElems = document.querySelectorAll('.album-songs-item-details-play-link');
+        var randomSong = getRand(0, playElems.length);
+        var youtubeEmberUrl = 'https://www.youtube.com/embed/' + playElems[randomSong].dataset.id + '/';
+        document.getElementById('player-frame').src = youtubeEmberUrl;
+    }
+
+    setupRandomSongOnLoad();
+</script>
 {{ end }}
