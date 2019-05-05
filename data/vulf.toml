@@ -1001,3 +1001,157 @@ year = "2011"
   Nick Nagurka — engineering, tape-op
   Benji Dell — camera
   """
+
+[[albums]]
+title = "The Fearless Flyers"
+year = "2018"
+
+  [[albums.songs]]
+  title = "Ace of Aces"
+  youtubeId = "72_zXigcOrA"
+  description = """
+  Nate Smith — drums, composer
+  Joe Dart — bass guitar, composer
+  Cory Wong — baritone guitar, composer
+  Mark Lettieri — guitar, composer
+  Jack Stratton — producer, composer, mixer
+  Ryan Lerman — engineer
+  Rob Stenson — steadicam operator
+  """
+
+  [[albums.songs]]
+  title = "Under the Sea / Flyers Drive"
+  youtubeId = "rAi8YcCuVnk"
+  description = """
+  Nate Smith — drums
+  Joe Dart — bass guitar
+  Cory Wong — guitar
+  Mark Lettieri — baritone guitar
+  Jack Stratton — producer, mixer
+  Ryan Lerman — engineer
+  Rob Stenson — steadicam operator
+  """
+
+  [[albums.songs]]
+  title = "Introducing the Fearless Flyers"
+  youtubeId = "8P-y0mD442I"
+  description = """
+  Nate Smith — drums
+  Joe Dart — bass guitar
+  Cory Wong — guitar
+  Mark Lettieri — baritone guitar
+  Jack Stratton — producer, mixer
+  Ryan Lerman — engineer
+  Rob Stenson — steadicam operator
+  """
+
+  [[albums.songs]]
+  title = "Signed, Sealed, Delivered (feat. Blake Mills & Sandra Crouch)"
+  youtubeId = "kH1ZxoEkv84"
+  description = """
+  Blake Mills — slide guitar
+  Sandra Crouch — tambourine
+  Nate Smith — drums
+  Joe Dart — bass guitar
+  Cory Wong — guitar
+  Mark Lettieri — baritone guitar
+  Jack Stratton — producer, mixer
+  Ryan Lerman — engineer
+  Rob Stenson — steadicam operator
+  """
+
+  [[albums.songs]]
+  title = "Barbara"
+  youtubeId = "2nvS1th1abc"
+  description = """
+  Sandra Crouch — tambourine
+  Nate Smith — drums
+  Joe Dart — bass guitar
+  Cory Wong — guitar
+  Mark Lettieri — baritone guitar
+  Jack Stratton — producer, mixer
+  Ryan Lerman — engineer
+  Rob Stenson — steadicam operator
+  """
+
+  [[albums.songs]]
+  title = "Bicentennial (feat. Elizabeth Lea)"
+  youtubeId = "MHcX_BWUPZg"
+  description = """
+  Elizabeth Lea — trombone
+  Nate Smith — drums
+  Joe Dart — bass guitar
+  Cory Wong — producer, guitar
+  Mark Lettieri — baritone guitar
+  Jack Stratton — producer, mixer, announcer
+  Ryan Lerman — engineer
+  Rob Stenson — steadicam operator
+  """
+
+[[albums]]
+title = "The Fearless Flyers II"
+year = "2019"
+
+  [[albums.songs]]
+  title = "Flyers Direct"
+  youtubeId = "9TYbw6FWMPs"
+  description = """
+  Nate Smith — drums
+  Joe Dart — bass guitar
+  Cory Wong — guitar
+  Mark Lettieri — baritone guitar
+  Jack Stratton — mixing, steadicam
+  Ryan Lerman — engineer
+  """
+
+  [[albums.songs]]
+  title = "The Baal Shem Tov (feat. Joey Dosik)"
+  youtubeId = "zkNmVSHckno"
+  description = """
+  Joey Dosik — alto sax, composer
+  Nate Smith — drums
+  Joe Dart — bass guitar
+  Cory Wong — guitar
+  Mark Lettieri — baritone guitar
+  Jack Stratton — mixing, steadicam
+  Ryan Lerman — engineer
+  """
+
+  [[albums.songs]]
+  title = "Simon F15"
+  youtubeId = "LY-54Xo_Dl8"
+  description = """
+  Nate Smith — drums
+  Joe Dart — bass guitar
+  Cory Wong — guitar, composer
+  Mark Lettieri — baritone guitar
+  Jack Stratton — mixing, steadicam
+  Ryan Lerman — engineer
+  """
+
+  [[albums.songs]]
+  title = "Daddy, He Got a Cessna (feat. Chris Thile)"
+  youtubeId = "AYk4VTZIaIM"
+  description = """
+  Chris Thile — small guitar
+  Nate Smith — drums
+  Joe Dart — big guitar
+  Cory Wong — guitar
+  Mark Lettieri — medium guitar
+  Jack Stratton — mixing, steadicam
+  Ryan Lerman — engineer
+  """
+
+  [[albums.songs]]
+  title = "Swampers"
+  youtubeId = ""
+  description = """
+
+  """
+
+  [[albums.songs]]
+  title = "Hero Town"
+  youtubeId = ""
+  description = """
+
+  """
