@@ -67,9 +67,20 @@ year = "2018"
 
   [[albums.songs]]
   title = "For Survival"
-  youtubeId = ""
+  youtubeId = "VSBxCgj3Vck"
   description = """
-
+  Mike Viola — vocals, composer
+  Jack Stratton — drums, mixing
+  Joey Dosik — organ
+  Antwaun Stanley — vocals
+  Woody Goss — piano, composer
+  Cory Wong — guitar
+  Theo Katzman — guitar
+  Joe Dart — bass
+  Rich Hinman — pedal steel
+  Jake Hartsfield — camera
+  Andre Cantave — engineer
+  Devin Kerr — mastering
   """
 
   [[albums.songs]]
@@ -101,16 +112,29 @@ year = "2018"
 
   [[albums.songs]]
   title = "Disco Ulysses (Inst.)"
-  youtubeId = ""
+  youtubeId = "F7nCDrf90V8"
   description = """
-
+  Jack Stratton — drums, composer, mixing
+  Joey Dosik — masking tape piano
+  Woody Goss — wurlitzer
+  Cory Wong — guitar
+  Theo Katzman — guitar
+  Joe Dart — bass
+  Ryan Lerman — camera, engineer
   """
 
   [[albums.songs]]
   title = "The Cup Stacker"
-  youtubeId = ""
+  youtubeId = "3HOb5vXOIkw"
   description = """
-
+  Jack Stratton — kick, mixing, composer
+  Woody Goss — masking tape piano
+  Joey Dosik — wurlitzer
+  Cory Wong — guitar
+  Theo Katzman — snare, sock cymbal
+  Joe Dart — bass
+  Ryan Lerman — camera, engineer
+  Devin Kerr — mastering
   """
 
   [[albums.songs]]
