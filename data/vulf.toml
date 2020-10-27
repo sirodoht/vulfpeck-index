@@ -1423,14 +1423,182 @@ year = "2019"
 
   [[albums.songs]]
   title = "Swampers"
-  youtubeId = ""
+  youtubeId = "T_2gkPYVU08"
   description = """
-
   """
 
   [[albums.songs]]
   title = "Hero Town"
-  youtubeId = ""
+  youtubeId = "A_FZM9K8Eo0"
   description = """
+  """
 
+[[albums]]
+title = "Tailwinds"
+year = "2020"
+
+  [[albums.songs]]
+  title = "Nate Smith Is the Ace of Aces"
+  youtubeId = "6NdWg4xIus8"
+  description = """
+  Nate Smith — drums
+  Mark Lettieri — small guitar
+  Cory Wong — medium guitar
+  Joe Dart — big guitar
+  Alekos Syropoulos — small sax
+  Kenni Holmen — medium sax
+  Grace Kelly — big sax
+  Jack Stratton — mixing, camera
+  Michael Nelson — horn arranger
+  Joseph Lorge — engineer
+  """
+
+  [[albums.songs]]
+  title = "Introducing Delta Force"
+  youtubeId = "tt6eqDv0cpI"
+  description = """
+  Nate Smith — drums
+  Cory Wong — small guitar, composer, producer
+  Mark Lettieri — medium guitar
+  Joe Dart — big guitar
+  Alekos Syropoulos — small sax
+  Kenni Holmen — medium sax
+  Grace Kelly — big sax
+  Michael Nelson — horn arranger
+  Jack Stratton — camera, producer
+  Caleb Parker — mixing
+  Joseph Lorge — engineer
+  """
+
+  [[albums.songs]]
+  title = "Colonel Panic"
+  youtubeId = "s53X6u_liZc"
+  description = """
+  Nate Smith — drums
+  Cory Wong — small guitar, composer, producer
+  Mark Lettieri — medium guitar
+  Joe Dart — big guitar
+  Alekos Syropoulos — small sax
+  Kenni Holmen — medium sax
+  Grace Kelly — big sax
+  Michael Nelson — horn arranger
+  Jack Stratton — camera, producer
+  Caleb Parker — mixing
+  Joseph Lorge — engineer
+  """
+
+  [[albums.songs]]
+  title = "Ambush"
+  youtubeId = "3Y5ixo_dLGo"
+  description = """
+  Nate Smith — drums
+  Cory Wong — small guitar, composer
+  Mark Lettieri — medium guitar, composer
+  Joe Dart — big guitar
+  Jack Stratton — mixing, camera
+  Joseph Lorge — engineer
+  """
+
+  [[albums.songs]]
+  title = "The Birdwatcher"
+  youtubeId = "gBpawgFnTjo"
+  description = """
+  Nate Smith — drums
+  Cory Wong — small guitar
+  Mark Lettieri — medium guitar
+  Joe Dart — small big guitar
+  Alekos Syropoulos — small sax
+  Kenni Holmen — clarinet sax
+  Grace Kelly — big sax
+  Michael Nelson — horn arranger
+  Jack Stratton — camera, composer
+  Woody Goss — composer
+  Caleb Parker — mixing
+  Joseph Lorge — engineer
+  """
+
+  [[albums.songs]]
+  title = "Assassin"
+  youtubeId = "uKZGxW5BAe8"
+  description = """
+  Nate Smith — drums
+  Cory Wong — small guitar, composer
+  Mark Lettieri — medium guitar
+  Joe Dart — big guitar
+  Alekos Syropoulos — small sax
+  Kenni Holmen — medium sax
+  Grace Kelly — big sax
+  Jack Stratton — camera
+  Caleb Parker — mixing
+  Michael Nelson — horn arranger, composer
+  Joseph Lorge — engineer
+  """
+
+  [[albums.songs]]
+  title = "Adrienne and Adrianne"
+  youtubeId = "ogcmBogwVqU"
+  description = """
+  Nate Smith — drums
+  Cory Wong — small guitar
+  Mark Lettieri — medium guitar
+  Joe Dart — big guitar
+  Alekos Syropoulos — small sax
+  Kenni Holmen — medium sax
+  Grace Kelly — big sax
+  Michael Nelson — horn arranger
+  Jack Stratton — camera, composer
+  Caleb Parker — mixing
+  Joseph Lorge — engineer
+  """
+
+  [[albums.songs]]
+  title = "Kenni and the Jets"
+  youtubeId = "Av6E7zBrgeE"
+  description = """
+  Nate Smith — drums
+  Cory Wong — small guitar
+  Mark Lettieri — medium guitar
+  Joe Dart — big guitar
+  Alekos Syropoulos — small sax
+  Kenni Holmen — medium sax
+  Grace Kelly — big sax
+  Elton John — composer
+  Jack Stratton — camera
+  Caleb Parker — mixing
+  Michael Nelson — horn arranger
+  Joseph Lorge — engineer
+  """
+
+  [[albums.songs]]
+  title = "Kauai"
+  youtubeId = "IHd7Rk6Uq1k"
+  description = """
+  Nate Smith — drums
+  Cory Wong — small guitar, composer
+  Mark Lettieri — medium guitar
+  Joe Dart — big guitar
+  Alekos Syropoulos — small sax
+  Kenni Holmen — medium sax
+  Grace Kelly — big sax
+  Jack Stratton — camera
+  Caleb Parker — mixing
+  Michael Nelson — horn arranger
+  Joseph Lorge — engineer
+  """
+
+  [[albums.songs]]
+  title = "The Speedwalker"
+  youtubeId = "u_t9dmiM4Zo"
+  description = """
+  Nate Smith — drums
+  Cory Wong — small guitar
+  Mark Lettieri — medium guitar
+  Joe Dart — big guitar
+  Alekos Syropoulos — small sax
+  Kenni Holmen — medium sax
+  Grace Kelly — big sax
+  Michael Nelson — horn arranger
+  Jack Stratton — camera, composer
+  Caleb Parker — mixing
+  Joseph Lorge — engineer
   """
